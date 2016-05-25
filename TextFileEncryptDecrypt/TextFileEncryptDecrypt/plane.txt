@@ -1,0 +1,5 @@
+This is a secret letter to work with a C program.
+This letter in plane.txt file will be encrypted by a formula:
+c=((113*(p-32)+45) mod 94) + 32, and then stored in cypher.txt file.
+Then the letter in cypher.txt file is decrypted by a formula:
+p=((5*(c-32)+ 57) mod 94) + 32, and then stored in decry.txt file.
