@@ -22,6 +22,15 @@ void ShowCards(Cards[], int);
 int main()
 {
 	Cards cards[24], p[5], c[5];
+	char password[255];
+	printf("½Ð¿é¤J±K½X¡G");
+	scanf("%s", password);
+	if (strcmp(password, "u0451054"))
+	{
+		printf("Error password!!!\n");
+		system("PAUSE");
+		exit(1);
+	}
 	Create(cards);
 	Shuffle(cards, 24);
 	Deal(cards, p, c);

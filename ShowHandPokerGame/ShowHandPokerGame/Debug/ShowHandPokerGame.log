@@ -1,9 +1,9 @@
-﻿已經開始建置於 2016/6/1 下午 10:46:59。
+﻿已經開始建置於 2016/6/1 下午 11:09:53。
      1>節點 2 (Build 目標) 上的專案 "C:\Users\庭瑋\Documents\GitHub\NKFUSTHomework\ShowHandPokerGame\ShowHandPokerGame\ShowHandPokerGame.vcxproj"。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
          Source.cpp
-     1>c:\users\庭瑋\documents\github\nkfusthomework\showhandpokergame\showhandpokergame\source.cpp(54): warning C4244: '引數' : 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+     1>c:\users\庭瑋\documents\github\nkfusthomework\showhandpokergame\showhandpokergame\source.cpp(62): warning C4244: '引數' : 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\庭瑋\Documents\GitHub\NKFUSTHomework\ShowHandPokerGame\Debug\ShowHandPokerGame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\庭瑋\Documents\GitHub\NKFUSTHomework\ShowHandPokerGame\Debug\ShowHandPokerGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\庭瑋\Documents\GitHub\NKFUSTHomework\ShowHandPokerGame\Debug\ShowHandPokerGame.lib" /MACHINE:X86 Debug\Source.obj
          Debug\Source1.obj
@@ -12,4 +12,4 @@
 
 建置成功。
 
-經過時間 00:00:02.88
+經過時間 00:00:03.29
